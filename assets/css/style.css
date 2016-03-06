@@ -1,0 +1,46 @@
+body{
+  background-color: black;
+}#title{
+  width: 100%;
+}#start{
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: #D4AF37;
+  width: 25%;
+  font-family: impact;
+  font-size: 24px;
+  background-color: black;
+  color:#D4AF37;
+  height: 100px;
+}#gameMain{
+  float: right;
+  background-color: white;
+  width: 57%;
+  margin-right: 250px;
+}#gameMain2{
+  float: right;
+  background-color: white;
+  width: 57%;
+  margin-right: 250px;
+}#gameMain3{
+  float: right;
+  background-color: white;
+  width: 57%;
+  margin-right: 250px;
+}#gameMain4{
+  float: right;
+  background-color: white;
+  width: 57%;
+  margin-right: 250px;
+}#gameMain5{
+  float: right;
+  background-color: white;
+  width: 57%;
+  margin-right: 250px;
+}#gameAnswer{
+  float: right;
+  background-color: white;
+  width: 57%;
+  margin-right: 250px;
+}
