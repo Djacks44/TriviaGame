@@ -38,7 +38,7 @@ body{
   background-color: white;
   width: 57%;
   margin-right: 250px;
-}#gameAnswer{
+}#gameAnswer,#gameAnswer2,#gameAnswer3,#gameAnswer4,#Restart{
   float: right;
   background-color: white;
   width: 57%;

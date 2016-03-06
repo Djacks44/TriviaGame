@@ -2,15 +2,22 @@ var wAnswer=0;
   var cAnswer=0;
   var userInput= [];
   var cletter=[];
-  var number = 120;
+  var number = 75;
   function run(){
     counter = setInterval(decrement, 1000);
     }
     function decrement(){
     number--;
+    $('#clock').html('<h2>' + number + '</h2>');
       if (number === 0){
-    userInput.push("z");
-      stop();
+    $("#gameMain,#gameMain2,#gameMain3,#gameMain4,#gameMain5").hide();
+   $("#gameAnswer,#gameAnswer2,#gameAnswer3,#gameAnswer4").show();
+   stop();
+   $('#gameAnswer').append('<h2>' + 'Thanks for playing'+ '</h2>');
+   $('#gameAnswer2').append('<h3>' + 'Correct Answers: ' +cAnswer+'</h3>');
+   $('#gameAnswer3').html('<h3>' + 'Wrong Answers: ' +wAnswer+'</h3>');
+    $("#gameAnswer4").html('Press Restart to play agian!');
+    $("#Restart").show();
       }
     }
     function stop(){
@@ -20,13 +27,14 @@ var wAnswer=0;
   
 $( window ). ready(function() {
    $("#gameMain,#gameMain2,#gameMain3,#gameMain4,#gameMain5").hide();
-   $("#gameAnswer").hide();
+   $("#gameAnswer,#gameAnswer2,#gameAnswer3,#gameAnswer4").hide();
+   $("#Restart").hide();
     
  $('#start').on('click',function(){
+  run();
    $("#init,#map").hide();
    $("#gameMain,#gameMain2,#gameMain3,#gameMain4,#gameMain5").show();
    
-
    $("#pics").html('<center><img src="http://www.orienttravel.ie/wp-content/uploads/2014/06/Istanbul-panorama-2.jpg" height="250"></center>')
    $("#a").text('Turkey');
    $("#b").text('Grecce');
@@ -104,6 +112,18 @@ $( window ). ready(function() {
   });
 
 
+$('#submit').on('click',function(){
+   $("#gameMain,#gameMain2,#gameMain3,#gameMain4,#gameMain5").hide();
+   $("#gameAnswer,#gameAnswer2,#gameAnswer3,#gameAnswer4").show();
+   stop();
+   $('#gameAnswer').append('<h2>' + 'Thanks for playing!!!'+ '</h2>');
+   $('#gameAnswer2').append('<h3>' + 'Correct Answers: ' +cAnswer+'</h3>');
+   $('#gameAnswer3').html('<h3>' + 'Wrong Answers: ' +wAnswer+'</h3>');
+    $("#gameAnswer4").html('Press restart to play agian!');
+    $("#Restart").show();
+
+
+});
 
   });
 });
