@@ -39,7 +39,7 @@ $( window ). ready(function() {
    $("#a").text('Turkey');
    $("#b").text('Grecce');
    $("#c").text('Italy');
-   $("#d").text('Hungry');
+   $("#d").text('Spain');
     $("#pics2").html('<center><img src="http://edu-geography.com/data_images/countries/berlin/berlin-01.jpg" height="250"></center>')
     $("#e").text('USA');
     $("#f").text('Canada');

@@ -13,34 +13,17 @@ body{
   background-color: black;
   color:#D4AF37;
   height: 100px;
-}#gameMain{
+}#gameMain,#gameMain2,#gameMain3,#gameMain4,#gameMain5{
   float: right;
-  background-color: white;
+  background-color: black;
   width: 57%;
   margin-right: 250px;
-}#gameMain2{
-  float: right;
-  background-color: white;
-  width: 57%;
-  margin-right: 250px;
-}#gameMain3{
-  float: right;
-  background-color: white;
-  width: 57%;
-  margin-right: 250px;
-}#gameMain4{
-  float: right;
-  background-color: white;
-  width: 57%;
-  margin-right: 250px;
-}#gameMain5{
-  float: right;
-  background-color: white;
-  width: 57%;
-  margin-right: 250px;
+  color: white;
+  margin-bottom: 60px;
 }#gameAnswer,#gameAnswer2,#gameAnswer3,#gameAnswer4,#Restart{
   float: right;
-  background-color: white;
+  background-color: black;
   width: 57%;
   margin-right: 250px;
+  color: white;
 }
