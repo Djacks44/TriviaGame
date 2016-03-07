@@ -8,7 +8,7 @@ var wAnswer=0;
     }
     function decrement(){
     number--;
-    $('#clock').html('<h2>' + number + '</h2>');
+    $('#clock').html('<center><h2>' + number + '</h2></center>');
       if (number === 0){
     $("#gameMain,#gameMain2,#gameMain3,#gameMain4,#gameMain5").hide();
    $("#gameAnswer,#gameAnswer2,#gameAnswer3,#gameAnswer4").show();
@@ -49,14 +49,14 @@ $( window ). ready(function() {
       $("#m").text('China');
       $("#n").text('Singapore');
       $("#o").text('Indonesia');
-      $("#p").text('South korea');
+      $("#p").text('S. Korea');
        $("#pics4").html('<center><img src="http://www.baesystems.com/en/cybersecurity/download-en/cybersecurity/multimediaimage/webImage/20151124093019/1434557830021.jpg" height="250"></center>')
        $("#q").text('Germany');
        $("#r").text('USA');
        $("#s").text('England');
        $("#t").text('Canada');
         $("#pics5").html('<center><img src="https://coinsandmaps.files.wordpress.com/2015/07/nairobi.jpg" height="250"></center>')
-        $("#u").text('South Africa');
+        $("#u").text('S. Africa');
         $("#v").text('Nigeria');
         $("#w").text('Angola');
         $("#x").text('Kenya');

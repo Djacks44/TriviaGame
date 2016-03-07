@@ -26,4 +26,12 @@ body{
   width: 57%;
   margin-right: 250px;
   color: white;
+}#a,#b,#c,#d,#e,#f,#g,#h,#m,#n,#o,#p,#q,#r,#s,#t,#u,#v,#w,#x,#submit{
+  width: 10%;
+  height: 50px;
+
+}#clock{
+  width:10%;
+  height: 50px;
+
 }
